@@ -1,0 +1,62 @@
+### Symfony ###
+# Cache and logs (Symfony3)
+/var/*
+!/var/cache
+/var/cache/*
+!/var/logs
+/var/logs/*
+!/var/sessions
+/var/sessions/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+
+# Cache and logs (Symfony4+)
+/var/cache/*
+/var/log/*
+!var/cache/.gitignore
+!var/log/.gitignore
+
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.ini
+/config/parameters.yml
+
+# Managed by Composer
+/vendor/
+/composer.phar
+
+# Managed by Symfony Flex
+/.env.local
+/.env.local.php
+/.env.*.local
+
+# Assets and user uploads
+/public/bundles/
+/public/uploads/
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+
+# Build data
+/build/
+
+# Composer's project-specific cache
+/composer.lock
+/.php_cs.cache
+/.phpunit.result.cache
+
+# IDEs and editors
+/.idea/
+/.vscode/
+*~
+/.cache
+/nbproject/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+.DS_Store
+/.DS_Store
