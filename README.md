@@ -170,3 +170,6 @@ public function send(): RafinitaResponseInterface
     return new ResponseService($res->getStatusCode(), json_decode((string)$res->getBody(), true));  
 }
 ```
+## Додаткові джерела : 
+			[docs.montypay.com/s2s_card](https://docs.montypay.com/s2s_card#sale-request)
+   			[ocs.montypay.com/s2s_apm](https://docs.montypay.com/s2s_apm)
